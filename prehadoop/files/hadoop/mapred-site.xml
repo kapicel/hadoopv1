@@ -1,0 +1,17 @@
+<configuration>
+    <property>
+        <name>mapreduce.jobtracker.address</name>
+        <value>hadoop-master:54311</value>
+    </property>
+
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+	
+	<property>
+		<name>mapred.remote.os</name>
+		<value>Windows</value>
+		<description>Remote MapReduce framework's OS, can be either Linux or Windows</description>
+	</property>
+</configuration>
